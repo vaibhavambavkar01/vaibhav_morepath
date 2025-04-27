@@ -1,0 +1,3 @@
+[console_scripts]
+myproject-start = morepath_app.run:run
+
