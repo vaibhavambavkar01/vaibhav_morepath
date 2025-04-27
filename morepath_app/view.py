@@ -6,6 +6,11 @@ def document_default(self, request):
     return {'id': self.id, 'title': self.title, 'content': self.content }
 
 
-@App.view(model=User)
+# @App.view(model=User)
+# def user_info(self, request):
+#     return "User's full name is: %s" % self.fullname
+
+
+@App.json(model=User)
 def user_info(self, request):
-    return "User's full name is: %s" % self.fullname
+    return {"username":self.username,"email":self.email,"fullname":self.fullname}
