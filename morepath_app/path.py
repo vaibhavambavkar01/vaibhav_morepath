@@ -17,6 +17,7 @@ def get_user(username):
 def get_add_employee():
     return AddEmployee()
 
+#http://127.0.0.1:5000/employees/update?eid=102&edept=ITTT
 @App.path(path='/employees/update', model=UpdateEmployee)
 def get_add_employee():
     return UpdateEmployee()

@@ -21,3 +21,10 @@ docs/_build/
 
 *.pyc
 *.xml
+
+# Ignore PyCharm IDE settings
+.idea/
+
+# Ignore Python bytecode
+__pycache__/
+venv/
