@@ -1,0 +1,6 @@
+dectate==0.14
+importscan==0.2
+morepath==0.19
+reg==0.12
+repoze.lru==0.7
+WebOb==1.8.9
